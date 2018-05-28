@@ -5,7 +5,7 @@ module.exports = debugSession => {
     return Promise.resolve(debugSession.type);
   } else {
     return debugSession
-      .customRequest("debugSessionInfo")
-      .then(({ configurationProperties: { type }}) => type);
+      .customRequest("debugType")
+      .then(type => type);
   }
 };
