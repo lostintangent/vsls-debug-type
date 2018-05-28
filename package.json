@@ -1,0 +1,8 @@
+{
+  "name": "vsls-debug-type",
+  "version": "1.0.0",
+  "description": "A simply utility library for retrieving the active VS Code debug session type when using VS Live Share",
+  "main": "index.js",
+  "author": "Jonathan Carter",
+  "license": "MIT"
+}
