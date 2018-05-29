@@ -4,5 +4,9 @@
   "description": "A simply utility library for retrieving the active VS Code debug session type when using VS Live Share",
   "main": "index.js",
   "author": "Jonathan Carter",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostintangent/vsls-debug-type"
+  }
 }
